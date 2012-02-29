@@ -1,0 +1,118 @@
+Can't reproduce
+===============
+* I sometimes get strange behavior within the app where I have a large white area for typing but the app shows that I only have about 3 lines to type in then a scrollbar appears and I only have the 3 lines to type on. I am using Chrome 8.0.552.224 (Adam Boushley)
+
+Other features
+==============
+* SSL to Heroku? No, costs money ($20/mo) 
+  Notify "Dr. W" <dr.w@gmx.se>
+* Test against IE9 - No because I don't have Windows 7 to test IE9 on
+
+Bugs per Andrew Scheller - 2/26/2011
+========================
+* Open -> edit text -> Open same file (without saving)  doesn't open the
+old version of my file
+* It seems the "you forgot to save changes" popup doesn't pop up in
+every situation when it should. 
+
+2.3.0
+=====
+* Persist working directory across sessions
+* Persist previous session
+* If I click in the white space too far down the cursor does not appear. I have to click on the first few lines of the blank area for the cursor to appear. Make the whole blank area the text box instead of just the first few rows. (Adam Boushley)
+* Open folder URLS (#open/Simplenote opens the Simplenote folder in the open folder dialog)
+
+2.3.0
+=====
+* Markdown preview
+* Autosave sometimes overwrites last few characters typed
+
+2.2.2
+=====
+* Hey there, I'm from Poland and here we use ALT+S to type "ś" character. The problem is that Textdropapp catches it and saves the file like with CTRL+S instead for inserting this letter.
+* IE7 issues - ...when I click the 'Log In to TextDrop' and then log in to DropBox, it takes me to the correct page as if logged in but then flashes me back to the original not-logged-in page. If I click the Log In link once more it flashes me on and back again...
+* Remove footer logo from print css
+
+
+2.2.1 - November 9, 2011
+========================
+* Make .taskpaper extension editable
+
+2.2.0 - August 5, 2011
+======================
+* Enable autosave
+* Fix bug where "Loading..." indicator does not show up if 
+  I type here and autosave
+* New -> edit text -> New  doesn't give me a blank page
+* Fix jumping cursor
+
+2.1.0 - May 2, 2011
+===================
+* Catch Ctrl-S/Command-S on Mac to save
+* Catch paste event - onpaste - to refit textarea
+* Files with "#" don't open
+
+2.0.4 - February 28, 2011
+=========================
+* Updated some file extensions
+
+2.0.3 - February 19, 2011
+=========================
+* Fitting file browser dialog to window
+
+2.0.2 - February 19, 2011
+=========================
+* Fix saving issue due to Ruby Gem update
+* Create a better favicon. Remove the white box behind the logo and fill up the whole 16x16 space to make the logo just a little bigger (Adam Boushley)
+
+2.0.1 - February 15, 2011
+=========================
+* Fix the ".txt.txt" problem
+* Show files in Save Dialog
+* Clear Dropbox browser cache after Save
+* Fix font sizes of non-editable files in browser
+* Allow resizing on dialog box
+
+2.0.0 - February 14, 2011
+=========================
+* Refactor to single-page app
+* Update to backbone.js 0.3.3 & underscore.js 1.1.4
+* Bug: new documents do not refit and cannot be saved - check JS console (darren <darren@sharefamily.co.cc>)
+* Add VBA, XML file extensions (adamgates@fastmail.fm)
+* Added blog link to about dialog
+* Warn user if there are unsaved changes
+* Change to standard method for saving untitled (open save dialog) (Darren)
+* Make dirty/clean state visible
+* Allow choosing of folder when saving new file
+
+1.2.2 - November 3, 2010
+========================
+* Patch Dropbox gem with SSL fix, switch to updated gem
+* Switch to StringIO rather than writing the data to a file 
+  then reading it back
+
+1.2.1 - November 2, 2010
+========================
+* Fix SSL upload bug
+
+1.2.0 - November 1, 2010 
+========================
+* Cache directory listing
+* Now you can edit any text file (files with MIME type of text/*)
+* Change homepage title to "Online text editor for Dropbox"
+* More inline documentation
+* Removed redundant checktab script
+* Create TextDrop blog on Tumblr
+
+1.1.0 - October 28, 2010
+========================
+* Refactor to use an MVC pattern via Backbone.js
+* Set default font to Inconsolata
+* Factor out server-side coffeescript
+
+1.0.0 - October 10, 2010
+========================
+* Initial release!
+* Browse folders
+* Open existing files
+* Create new files

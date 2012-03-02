@@ -1,39 +1,3 @@
-Can't reproduce
-===============
-* I sometimes get strange behavior within the app where I have a large white area for typing but the app shows that I only have about 3 lines to type in then a scrollbar appears and I only have the 3 lines to type on. I am using Chrome 8.0.552.224 (Adam Boushley)
-
-Other features
-==============
-* SSL to Heroku? No, costs money ($20/mo) 
-  Notify "Dr. W" <dr.w@gmx.se>
-* Test against IE9 - No because I don't have Windows 7 to test IE9 on
-
-Bugs per Andrew Scheller - 2/26/2011
-========================
-* Open -> edit text -> Open same file (without saving)  doesn't open the
-old version of my file
-* It seems the "you forgot to save changes" popup doesn't pop up in
-every situation when it should. 
-
-2.3.0
-=====
-* Persist working directory across sessions
-* Persist previous session
-* If I click in the white space too far down the cursor does not appear. I have to click on the first few lines of the blank area for the cursor to appear. Make the whole blank area the text box instead of just the first few rows. (Adam Boushley)
-* Open folder URLS (#open/Simplenote opens the Simplenote folder in the open folder dialog)
-
-2.3.0
-=====
-* Markdown preview
-* Autosave sometimes overwrites last few characters typed
-
-2.2.2
-=====
-* Hey there, I'm from Poland and here we use ALT+S to type "ś" character. The problem is that Textdropapp catches it and saves the file like with CTRL+S instead for inserting this letter.
-* IE7 issues - ...when I click the 'Log In to TextDrop' and then log in to DropBox, it takes me to the correct page as if logged in but then flashes me back to the original not-logged-in page. If I click the Log In link once more it flashes me on and back again...
-* Remove footer logo from print css
-
-
 2.2.1 - November 9, 2011
 ========================
 * Make .taskpaper extension editable
